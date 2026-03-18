@@ -50,7 +50,7 @@ const io = new Server(httpServer, {
     methods: ["GET", "POST"]
   }
 });
-
+ 
 // Make global
 app.set("io", io);
 app.set("redis", redisClient);
